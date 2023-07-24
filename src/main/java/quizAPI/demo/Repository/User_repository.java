@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface User_repository  extends CrudRepository <User, Long> {
     User creer(User user);
-    List<User> Lire();
+    List <User> Lire();
     User getUser(Long id, User user);
 
     User modifier(Long id, User user);

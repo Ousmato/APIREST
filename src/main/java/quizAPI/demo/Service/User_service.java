@@ -2,12 +2,14 @@ package quizAPI.demo.Service;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import quizAPI.demo.Entity.User;
 import quizAPI.demo.Repository.User_repository;
 
 import java.util.List;
 
 @Data
+@Service
 public class User_service {
     @Autowired
     private final User_repository userRepository;
@@ -17,7 +19,7 @@ public class User_service {
     }
 
     public List<User> Lire() {
-        return userRepository.findAll();
+        return (List<User>) userRepository.findAll();
     }
 
 
