@@ -1,2 +1,4 @@
-package quizAPI.demo.Entity;public class User {
+package quizAPI.demo.Entity;
+
+public class User {
 }

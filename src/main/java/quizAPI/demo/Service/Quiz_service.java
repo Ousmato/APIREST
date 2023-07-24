@@ -1,2 +1,4 @@
-package quizAPI.demo.Service;public class Quiz_service {
+package quizAPI.demo.Service;
+
+public class Quiz_service {
 }
