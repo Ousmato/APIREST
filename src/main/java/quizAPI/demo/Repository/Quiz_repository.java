@@ -1,4 +1,2 @@
-package quizAPI.demo.Repository;
-
-public interface Quiz_repository {
+package quizAPI.demo.Repository;public interface Quiz_repository {
 }

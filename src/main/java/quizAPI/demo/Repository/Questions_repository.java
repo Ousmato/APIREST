@@ -1,8 +1,9 @@
-package quizAPI.demo.Repository;
 
-import org.springframework.data.repository.CrudRepository;
+package quizAPI.demo.Repository;
 import quizAPI.demo.Entity.Questions;
 
-public interface Questions_repository extends CrudRepository<Questions, Integer> {
+import java.util.List;
 
+public interface Questions_repository extends CrudRepository<Questions, Integer> {
+    List<Questions> findAll();
 }
